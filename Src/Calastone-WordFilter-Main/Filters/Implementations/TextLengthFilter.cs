@@ -18,6 +18,11 @@ namespace Calastone_WordFilter_Main.Filters.Implementations
 
         public bool IsValidText(string text)
         {
+            if(string.IsNullOrWhiteSpace(text))
+            {
+                return false;
+            }
+
             return text.Length >= _minTextLength;
         }
     }
