@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calastone-WordFilter-Main", "Src\Calastone-WordFilter-Main\Calastone-WordFilter-Main.csproj", "{1A51C497-2BB2-46D9-B4D7-3439CF203C14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4442C8C0-7F37-4849-A678-CCC065F102EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{88C3C592-AD50-4F4C-8092-C0CDC58B5CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A51C497-2BB2-46D9-B4D7-3439CF203C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A51C497-2BB2-46D9-B4D7-3439CF203C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A51C497-2BB2-46D9-B4D7-3439CF203C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A51C497-2BB2-46D9-B4D7-3439CF203C14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A51C497-2BB2-46D9-B4D7-3439CF203C14} = {4442C8C0-7F37-4849-A678-CCC065F102EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {357616EF-1DFB-4ADA-8962-9E3E949CE98B}
+	EndGlobalSection
+EndGlobal
