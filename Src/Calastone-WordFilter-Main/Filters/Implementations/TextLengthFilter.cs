@@ -3,7 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Calastone_WordFilter_Main.Extensions;
 
 namespace Calastone_WordFilter_Main.Filters.Implementations
 {
@@ -23,7 +25,7 @@ namespace Calastone_WordFilter_Main.Filters.Implementations
                 return false;
             }
 
-            return text.Length >= _minTextLength;
+            return text.Sanitise().Length >= _minTextLength;
         }
     }
 }

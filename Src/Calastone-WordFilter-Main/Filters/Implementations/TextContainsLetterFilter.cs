@@ -1,4 +1,5 @@
-﻿using Calastone_WordFilter_Main.Filters.Interfaces;
+﻿using Calastone_WordFilter_Main.Extensions;
+using Calastone_WordFilter_Main.Filters.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +29,7 @@ namespace Calastone_WordFilter_Main.Filters.Implementations
                 return false;
             }
 
-            return !text.Contains(
+            return !text.Sanitise().Contains(
                 _containingLetter, 
                 _ignoreCase ? StringComparison.InvariantCultureIgnoreCase: StringComparison.InvariantCulture
             );

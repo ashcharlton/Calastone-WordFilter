@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Calastone-WordFilter-Main": {
+      "commandName": "Project",
+      "commandLineArgs": "Input.txt"
+    }
+  }
+}
